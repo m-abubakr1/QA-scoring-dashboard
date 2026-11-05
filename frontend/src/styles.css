@@ -1,0 +1,67 @@
+:root {
+  --bg: #f7f7f5; --card: #ffffff; --ink: #1c1c1a; --muted: #6b6a66; --line: #dddcd6;
+  --accent: #2a78d6; --ok: #2f7d4f; --bad: #c43d3d; --warn: #b7791f;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151514; --card: #1e1e1c; --ink: #ecebe6; --muted: #a09f98; --line: #34332f;
+    --accent: #4a90e2; --ok: #5cb97f; --bad: #e46a6a; --warn: #e0a84a;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.app { max-width: 1200px; margin: 0 auto; padding: 16px; }
+header { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 16px; }
+header h1 { font-size: 20px; margin: 0; }
+nav { margin-left: auto; display: flex; gap: 6px; }
+h2 { font-size: 18px; margin: 0 0 8px; }
+h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 16px 0 8px; }
+.muted { color: var(--muted); } .small { font-size: 13px; }
+.dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.dot.on { background: var(--ok); } .dot.off { background: var(--bad); }
+
+button, select, input { font: inherit; color: var(--ink); background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; }
+button { cursor: pointer; } button:disabled { opacity: .5; cursor: default; }
+.tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.inline { display: flex; gap: 8px; margin: 6px 0; } .inline input, .inline select { flex: 1; min-width: 0; }
+
+.layout { display: grid; grid-template-columns: 280px 1fr; gap: 20px; }
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } }
+aside, main { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+
+.calls { list-style: none; margin: 0; padding: 0; }
+.call { width: 100%; display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; text-align: left; }
+.call.selected { border-color: var(--accent); }
+.badge { font-size: 12px; border: 1px solid var(--line); border-radius: 10px; padding: 0 8px; }
+.badge.live { color: #fff; background: var(--bad); border-color: var(--bad); }
+
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 900px) { .columns { grid-template-columns: 1fr; } }
+.transcript { max-height: 460px; overflow-y: auto; }
+.line { padding: 6px 10px; margin-bottom: 6px; border-radius: 8px; background: var(--bg); }
+.line.agent { border-left: 3px solid var(--accent); } .line.customer { border-left: 3px solid var(--muted); }
+.who { font-size: 11px; text-transform: uppercase; color: var(--muted); margin-right: 6px; }
+
+.overall .big { font-size: 40px; font-weight: 700; }
+.criterion { margin-bottom: 12px; }
+.row { display: flex; justify-content: space-between; }
+.bar { height: 8px; background: var(--bg); border-radius: 4px; overflow: hidden; margin: 3px 0; }
+.fill { height: 100%; background: var(--ok); }
+.fill.s1, .fill.s2 { background: var(--bad); } .fill.s3 { background: var(--warn); }
+blockquote { margin: 4px 0; padding-left: 10px; border-left: 3px solid var(--line); color: var(--muted); font-size: 13px; }
+
+.alert { padding: 8px 12px; border-radius: 6px; margin-bottom: 8px; border: 1px solid var(--line); }
+.alert.high { border-color: var(--bad); color: var(--bad); }
+.alert.medium { border-color: var(--warn); color: var(--warn); cursor: pointer; }
+.warn { color: var(--warn); }
+.note { margin: 4px 0; }
+
+table { width: 100%; border-collapse: collapse; margin-bottom: 12px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+tr.clickable { cursor: pointer; } tr.clickable:hover { background: var(--bg); }
+
+.import { display: flex; flex-direction: column; gap: 6px; }
+.import textarea { font: inherit; color: var(--ink); background: var(--card); border: 1px solid var(--line);
+                   border-radius: 6px; padding: 6px 10px; resize: vertical; width: 100%; }
+.filebutton { border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; cursor: pointer; background: var(--card); }
+.import .small { margin: 0; }

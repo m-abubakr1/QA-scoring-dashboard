@@ -1,0 +1,348 @@
+[
+  {
+    "id": "strong-billing",
+    "title": "Billing question handled well",
+    "agent_name": "Maya",
+    "lines": [
+      {
+        "speaker": "agent",
+        "text": "Hello, thank you for calling Northwind Telecom support. My name is Maya. How can I assist you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi Maya, I noticed I've been charged twice this month for my internet service."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'm sorry to hear that. Let's get this sorted out for you. Can you please provide your name and the last four digits of your account number for verification?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, my name is Alex Johnson, and the last four digits are 4827."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you, Alex. Let me take a quick look at your account."
+      },
+      {
+        "speaker": "agent",
+        "text": "I see the issue here. It looks like a duplicate charge was made by mistake. I apologize for the inconvenience."
+      },
+      {
+        "speaker": "customer",
+        "text": "No worries. How long will it take to get the refund?"
+      },
+      {
+        "speaker": "agent",
+        "text": "The refund process usually takes about 5 to 7 business days, and you'll see the amount credited back to your account."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, that sounds good. Thank you for your help."
+      },
+      {
+        "speaker": "agent",
+        "text": "You're welcome, Alex. So just to recap, we've identified the duplicate charge and initiated a refund, which should reach you within 5 to 7 business days."
+      },
+      {
+        "speaker": "agent",
+        "text": "Is there anything else I can assist you with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's all. Thank you, Maya."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling Northwind Telecom, Alex. Have a great day!"
+      }
+    ]
+  },
+  {
+    "id": "rude-agent",
+    "title": "Rude agent, slow internet",
+    "agent_name": "Dan",
+    "lines": [
+      {
+        "speaker": "agent",
+        "text": "Northwind Telecom, this is Dan. What's up?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I'm having issues with my internet. It's been really slow all day."
+      },
+      {
+        "speaker": "agent",
+        "text": "Yeah, uh-huh, it's probably your router. Happens all the time."
+      },
+      {
+        "speaker": "customer",
+        "text": "I don't think it's the router. I've restarted it a few times already."
+      },
+      {
+        "speaker": "agent",
+        "text": "Look, it’s usually the router. Did you try unplugging it for like, 10 seconds?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, I did. Can you check if there's something wrong on your end?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Sigh... yeah, well, hold on."
+      },
+      {
+        "speaker": "agent",
+        "text": "Alright, no outages here. It’s gotta be your setup."
+      },
+      {
+        "speaker": "customer",
+        "text": "But everything else seems fine. Are you sure there's nothing wrong?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Positive. Maybe it's just a one-off, you know? Try again later."
+      },
+      {
+        "speaker": "customer",
+        "text": "Could it be the line or something outside my house?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Doubt it. If it doesn't get better, call back or something."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, but what if it keeps happening?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Gotta go. Bye."
+      }
+    ]
+  },
+  {
+    "id": "compliance-failure",
+    "title": "Account details shared without checking identity",
+    "agent_name": "Leo",
+    "lines": [
+      {
+        "speaker": "agent",
+        "text": "Hello, thank you for calling Northwind Telecom. This is Leo. How can I assist you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I need to verify some details on my account. Could you tell me the address and the card ending digits you have on file?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Of course! Let me check that for you. The address we have on file is 123 Elm Street, Suite 456, Springfield. And the card ends in 1234."
+      },
+      {
+        "speaker": "customer",
+        "text": "Great, thanks! Also, I heard there might be a refund available for me. Can you confirm that?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Absolutely! I can guarantee you a refund of $200. Is there anything else I can help you with today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, that's all I needed. Thanks, Leo."
+      },
+      {
+        "speaker": "agent",
+        "text": "You're welcome! If you need anything else in the future, feel free to call us back. Have a great day!"
+      },
+      {
+        "speaker": "customer",
+        "text": "Thanks, you too!"
+      }
+    ]
+  },
+  {
+    "id": "calm-after-anger",
+    "title": "Angry customer, agent de-escalates",
+    "agent_name": "Priya",
+    "lines": [
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling Northwind Telecom support. This is Priya. How can I assist you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I've been without internet and phone service for two days! This is ridiculous!"
+      },
+      {
+        "speaker": "agent",
+        "text": "I'm really sorry to hear that you're experiencing these issues. I completely understand your frustration. Let me help you resolve this as quickly as possible."
+      },
+      {
+        "speaker": "customer",
+        "text": "I just need this fixed. I've already lost two days of work!"
+      },
+      {
+        "speaker": "agent",
+        "text": "I understand how important this is for you. Before we proceed, could I please verify your account details? Can you provide your full name and account number?"
+      },
+      {
+        "speaker": "customer",
+        "text": "It's Alex Johnson, and the account number is 123456789."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you, Alex. I see your account here. I apologize again for the loss of service. Let me book a technician for you. Would tomorrow morning work for a visit?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, I need this fixed as soon as possible."
+      },
+      {
+        "speaker": "agent",
+        "text": "Great, I've scheduled a technician to come to your location tomorrow morning. They will ensure everything is back up and running."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay. What about all the inconvenience I’ve already had?"
+      },
+      {
+        "speaker": "agent",
+        "text": "I completely understand, and as per our policy, I can offer a credit to your bill for the downtime you've experienced. I hope that helps."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, that sounds fair."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'm glad we could sort that out. Is there anything else I can assist you with today, Alex?"
+      },
+      {
+        "speaker": "customer",
+        "text": "No, just make sure the technician comes on time."
+      },
+      {
+        "speaker": "agent",
+        "text": "Absolutely, I'll make a note of that. Thank you for your patience, and again, I apologize for the inconvenience. Have a good day!"
+      },
+      {
+        "speaker": "customer",
+        "text": "Thanks. Goodbye."
+      }
+    ]
+  },
+  {
+    "id": "vague-no-fix",
+    "title": "Friendly but no resolution",
+    "agent_name": "Tom",
+    "lines": [
+      {
+        "speaker": "agent",
+        "text": "Hello, thank you for calling Northwind Telecom. This is Tom speaking. How can I assist you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi Tom, I'm having trouble connecting my new router. I can't seem to get it to work."
+      },
+      {
+        "speaker": "agent",
+        "text": "I'm sorry to hear that. Let's see if we can figure it out together. Have you tried restarting the router?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, I've tried that a couple of times, but it's still not working."
+      },
+      {
+        "speaker": "agent",
+        "text": "Hmm, okay. Maybe try unplugging it and then plugging it back in? That might help."
+      },
+      {
+        "speaker": "customer",
+        "text": "I did that too. Nothing changed."
+      },
+      {
+        "speaker": "agent",
+        "text": "Alright, well, sometimes these things can be a bit tricky. Perhaps you could restart your modem as well?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I suppose I can try that. Do you have any other suggestions?"
+      },
+      {
+        "speaker": "agent",
+        "text": "Let me think... maybe just make sure all the cables are securely connected. That can sometimes be the issue."
+      },
+      {
+        "speaker": "customer",
+        "text": "Yeah, I checked that too. They seem fine."
+      },
+      {
+        "speaker": "agent",
+        "text": "Okay, well, it's always worth giving things another try. Perhaps restarting your devices might do the trick."
+      },
+      {
+        "speaker": "customer",
+        "text": "Alright, I'll give it another go, I guess."
+      },
+      {
+        "speaker": "agent",
+        "text": "Sounds good. Let us know if you need more help later. Have a good day!"
+      },
+      {
+        "speaker": "customer",
+        "text": "Thanks, bye."
+      }
+    ]
+  },
+  {
+    "id": "good-no-closing",
+    "title": "Good fix, weak ending",
+    "agent_name": "Ana",
+    "lines": [
+      {
+        "speaker": "agent",
+        "text": "Thank you for calling Northwind Telecom. This is Ana. How can I assist you today?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Hi, I’d like to change my internet plan."
+      },
+      {
+        "speaker": "agent",
+        "text": "Sure, I can help with that. Can I have your account number or the phone number associated with the account?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Sure, it's 555-0199."
+      },
+      {
+        "speaker": "agent",
+        "text": "Thank you. Can I just confirm your name and address for security purposes?"
+      },
+      {
+        "speaker": "customer",
+        "text": "Yes, it's Jamie Lee, 123 Maple Street."
+      },
+      {
+        "speaker": "agent",
+        "text": "Perfect, thank you. We have two options available. The first is the Standard Plan with 100 Mbps speed for $50 a month. The second is the Premium Plan with 300 Mbps speed for $75 a month. Which one would you like to switch to?"
+      },
+      {
+        "speaker": "customer",
+        "text": "I think I'll go with the Premium Plan."
+      },
+      {
+        "speaker": "agent",
+        "text": "Great choice. I'll go ahead and switch your plan to the Premium Plan at $75 a month."
+      },
+      {
+        "speaker": "customer",
+        "text": "Okay, that sounds good."
+      },
+      {
+        "speaker": "agent",
+        "text": "Ok, done."
+      }
+    ]
+  }
+]
